@@ -1,0 +1,278 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{  
+    background: url("images/bg.jpg") no-repeat;
+    background-size: cover; 
+   
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: serif;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.green{
+    top:10px;
+    left: 35%;
+    width: 600px;
+    height: 300px;
+    background: linear-gradient(green, rgb(30, 156, 30) );
+    position: relative;
+}
+.standbar{
+    width: 10px;
+    height: 800px;
+    background: linear-gradient(black,silver);
+    position:absolute;
+    top: 0px;
+    left: 0%;
+}
+.black{
+        width: 100px;
+        height: 90px;
+        background: linear-gradient(black,rgb(158, 155, 155));
+        position:absolute;
+        top: 800px;
+        left: -7%;
+}
+.black2{
+        width: 150px;
+        height: 70px;
+        background: linear-gradient(silver, black);
+        position:absolute;
+        top: 850px;
+        left: -11%;
+}
+.red{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background: linear-gradient(red,rgb(100, 15, 15));
+    position: absolute;
+    top: 22%;
+    left: 35%;
+}
+
+.sidebar{
+    width:40px;
+    height: 100vh;
+    position: absolute;
+    background: linear-gradient(rgb(12, 53, 63), rgb(190, 193, 194));
+    right:0;
+    top:0;
+}
+.fb{
+    width: 150px;
+    position: fixed;
+    top: 40%;
+    right: -5.8%;   
+    transition: 1s;
+} 
+.fb:hover{
+    right: 12px;
+    background-color: white;
+    
+}
+.youtube{
+    width: 135px;
+    position: fixed;
+    top: 45%;
+    right: -5%;   
+    transition: 1s;
+} 
+.youtube:hover{
+    right: 12px;
+    background-color: white;
+    
+}
+
+.insta{
+    width: 130px;
+    position: fixed;
+    top: 49%;
+    right: -4.8%;   
+    transition: 1s;
+} 
+.insta:hover{
+    right: 12px;
+}
+.whatsapp{
+    width: 155px;
+    position: fixed;
+    top: 55%;
+    right: -6%;   
+    transition: 1s;
+} 
+.whatsapp:hover{
+    right: 12px;
+    background-color: white;
+  
+}
+.social-icons{
+    width: 60%;
+    margin: 0% 25%;
+    padding: 40px 0px;
+    text-align: center;
+   
+}   
+
+  
+.social-icons li{
+    list-style: none;
+    display: inline-block;
+    font: serif;
+    font-size: 20px;
+    
+}
+.social-icons li a{
+    display: block;
+    font-size: 35px;
+    margin: 0px 8px;
+
+}
+.social-icons li a .fa-facebook{
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    background:transparent;
+    color: black;
+    border-radius: 50%;
+    transition: .5s;
+    border: 1px solid #1877f2;
+    left: 10px;
+}
+.social-icons li a .fa-facebook:hover{
+    background: #1877f2;
+    color: white;
+    font-size: larger;
+    
+}
+.social-icons li a .fa-instagram{
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    background: transparent;
+    color: black;
+    border-radius: 50%;
+    transition: .5s;
+    border: 1px solid #f54a52;
+    
+}
+.social-icons li a .fa-instagram:hover{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    color: white;
+    border: none;
+    font-size: larger;
+
+}
+.social-icons li a .fa-youtube{
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    background: transparent;
+    color: black;
+    border-radius: 50%;
+    transition: .5s;
+    border: 1px solid #f54a52;
+    
+}
+.social-icons li a .fa-youtube:hover{
+    background: #f54a52;
+    color: white;
+    font-size: larger;
+    
+}
+.social-icons li a .fa-twitter{
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    background: transparent;
+    color: black;
+    border-radius: 50%;
+    transition: .5s;
+    border: 1px solid #1c96e9;
+
+} 
+.social-icons li a .fa-twitter:hover{
+    background: #1c96e9;
+    color: whitesmoke;
+    font-size: larger;
+}
+.social-icons li a .fa-google-plus{
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    background: transparent;
+    color: black;
+    border-radius: 50%;
+    transition: .5s;
+    border: 1px solid #d54c3f;
+
+} 
+.social-icons li a .fa-google-plus:hover{
+    background: #d54c3f;
+    color: whitesmoke;
+    font-size: larger;
+}
+
+.social-icons li a .fa-linkedin{
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    background: transparent;
+    color: black;
+    border-radius: 50%;
+    transition: .5s;
+    border: 1px solid #0c61bf;
+
+} 
+.social-icons li a .fa-linkedin:hover{
+    background: #0c61bf;
+    color: whitesmoke;
+    font-size: larger;
+}
+.social-icons li a .fa-html5{
+
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    background: transparent;
+    color: black;
+    border-radius: 50%;
+    transition: .5s;
+    border: 1px solid #fa3301;
+
+} 
+.social-icons li a .fa-html5:hover{
+    background: linear-gradient(45deg, #e34c26 25%, #ff7a41 85%);
+    color: whitesmoke;
+    font-size: larger;
+}
+.social-icons li a .fa-envelope-o{
+    
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    background: transparent;
+    color: black;
+    border-radius: 50%;
+    transition: .5s;
+    border: 1px solid red;
+
+} 
+.social-icons li a .fa-envelope-o:hover{
+    background: rgb(182, 182, 182);
+    color: red;
+    font-size: larger;
+}
+.social-icons li a:focus{
+    width: 90px;
+    height: 90px;
+    color: red;
+    
+}
